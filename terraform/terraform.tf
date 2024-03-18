@@ -27,7 +27,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "myflintbucket18"
+    bucket = "gitopbucket"
     key    = "terraform.tfstate"
     region = "us-east-2"
   }
